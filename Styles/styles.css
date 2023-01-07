@@ -1,14 +1,14 @@
+/* Universal Section */
 *{
     margin: 0;
 }
-
+/* Header Section */
 .header{
     text-align: right;
     background-repeat: no-repeat;
 }
 
 .title{
-    display: block;
     font-size: 65px;
     position: absolute;
     width: 525px;
@@ -41,6 +41,8 @@
     font-weight: 700;
     border: 0;
     border-radius: 5px;
+
+/*  Failures Section*/
 }
 .container-title{
     font-weight: 700;
@@ -75,6 +77,7 @@ ul li:before {
     color:limegreen;
 }
 
+/* Plan Section */
 .plan-title{
     margin-top: 130px;
     text-align: center;
@@ -95,7 +98,42 @@ ul li:before {
 }
 .plans-item{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 50px;
     text-align: center;
+}
+
+/* Hand-Watch Section */
+.call-button{
+    color: tomato;
+    background-color: white;
+    display: flex 10px;
+    position: absolute;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 250px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px
+}
+
+.watch{
+    margin-top: 120px;
+    background-image: url(../new-year-new-me-main/images/watch.png);
+    height: 300px;
+    width: 1140px;
+    background-position: 200px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.motivation{
+    font-size: 40px;
+    font-weight: 700px;
+    color:#FFFFFF;
+    margin-left: 250px;
+    margin-top: 150px;
 }
