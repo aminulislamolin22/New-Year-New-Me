@@ -121,6 +121,7 @@ ul li:before {
 
 .watch{
     margin-top: 120px;
+    margin-bottom: 150px;
     background-image: url(../new-year-new-me-main/images/watch.png);
     height: 300px;
     width: 1140px;
@@ -136,4 +137,59 @@ ul li:before {
     color:#FFFFFF;
     margin-left: 250px;
     margin-top: 150px;
+}
+
+/* Footer Section*/
+footer{
+    background-color: #151414;
+    margin-top: 130px;
+}
+.future{
+    display: flex;
+    
+}
+.future-text{
+    color: #F8F8F8;
+    text-align: left;
+}
+.footer-title{
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.email{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.phone{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.subscribe{
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+.submit-button{
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: rgba(241, 91, 34, 1);
+    margin-top: 15px;
+    
+}
+input{
+    border:2px;
+    background-color: black;
+    color: #FFFFFF;
+    padding: 10px;
 }
