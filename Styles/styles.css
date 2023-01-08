@@ -1,23 +1,20 @@
-/* Universal Section */
+/* Universal Section{ */
 *{
-    margin: 0;
+        margin: 0;
 }
+
 /* Header Section */
 .header{
     text-align: right;
-    background-repeat: no-repeat;
 }
-
 .title{
-    font-size: 65px;
     position: absolute;
     width: 525px;
-    height: 250px;
+    height: 228px;
     left: 845px;
     top: 216px;
-    margin: auto;
+    font-size: 65px;
 }
-
 .title-description{
     font-weight: 400;
     font-size: 16px;
@@ -27,119 +24,79 @@
     left: 876px;
     top: 468px;
 }
-
 .button-primary{
-    color: white;
-    background-color: tomato;
     display: flex 10px;
     position: absolute;
     text-align: center;
     width: 160px;
     height: 64px;
     left: 1200px;
-    top: 550px;
+    top: 575px;
+    color: white;
+    background-color: tomato;
     font-weight: 700;
     border: 0;
     border-radius: 5px;
-
-/*  Failures Section*/
 }
-.container-title{
+
+/* Main Section */
+
+section{
+    margin: 0 200px;
+    margin-top: 130px;
+    display: flex;
+}
+.failure-text{
+    justify-content: space-between;
+    margin-top: 300px;
+    margin-left: 250px;
+}
+.failure-title{
     font-weight: 700;
     font-size: 40px;
     color: #151414;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
-.container-subtitle{
-    font-weight: 400;
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-.container{
-    display: flex;
-}
-.list-subtitle{
-    margin: 200px 250px;
-    /* position: right; */
+.failure-title-description{
     color: #444343;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 .list{
-    list-style: none;
-    position:absolute;
-    font-size: 22px;
     color: #444343;
-    text-align: left;
+    list-style: none;
 }
-
 ul li:before {
     content: '✓';
-    color:limegreen;
-}
+    color:rgb(72, 201, 147)
+  }
 
-/* Plan Section */
 .plan-title{
-    margin-top: 130px;
+    margin-top: 200px;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
     margin-bottom: 50px;
 }
 
 .plans-item-title{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .plans-item-subtitle{
     font-weight: 500;
-    font-size: 25px;
+    font-size: 21px;
     color: #737272;
 }
 .plans-item{
     display: flex;
-    justify-content: space-around;
     margin-top: 50px;
     text-align: center;
+    justify-content: space-between;
+    gap: 100px;
 }
 
-/* Hand-Watch Section */
-.call-button{
-    color: tomato;
-    background-color: white;
-    display: flex 10px;
-    position: absolute;
-    text-align: center;
-    font-weight: 700;
-    margin-left: 250px;
-    border: 0;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 20px
-}
-
-.watch{
-    margin-top: 120px;
-    margin-bottom: 150px;
-    background-image: url(../new-year-new-me-main/images/watch.png);
-    height: 300px;
-    width: 1140px;
-    background-position: 200px;
-    border-radius: 8px;
-    background-repeat: no-repeat;
-    align-items: center;
-}
-
-.motivation{
-    font-size: 40px;
-    font-weight: 700px;
-    color:#FFFFFF;
-    margin-left: 250px;
-    margin-top: 150px;
-}
-
-/* Footer Section*/
+/* Footer Section */
 footer{
     background-color: #151414;
     margin-top: 130px;
@@ -158,7 +115,7 @@ footer{
     font-size: 45px;
     margin-bottom: 10px;
 }
-.footer-description{
+.future-description{
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 10px;
@@ -172,6 +129,7 @@ footer{
     margin-bottom: 10px;
 }
 
+
 .subscribe{
     margin-top: 15px;
     font-weight: 600;
@@ -179,7 +137,7 @@ footer{
     margin-bottom: 15px;
     color: #FFFFFF;
 }
-.submit-button{
+.submit-btn{
     padding: 15px 25px;
     border-radius: 10px;
     color: rgba(241, 91, 34, 1);
