@@ -96,6 +96,41 @@ ul li:before {
     gap: 100px;
 }
 
+/* Watch Section */
+.call-button{
+    color: tomato;
+    background-color: white;
+    display: flex 10px;
+    position: absolute;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 250px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px
+}
+
+.watch{
+    margin-top: 120px;
+    background-image: url(../new-year-new-me-main/images/watch.png);
+    height: 300px;
+    width: 1140px;
+    background-position: 200px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.motivation{
+    font-size: 40px;
+    font-weight: 700px;
+    color:#FFFFFF;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
 /* Footer Section */
 footer{
     background-color: #151414;
